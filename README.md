@@ -1,4 +1,4 @@
-# hello_world
+# Clicks_app
 
 A new Flutter project.
 
