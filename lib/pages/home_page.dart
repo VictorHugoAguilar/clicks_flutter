@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   final estiloTexto = new TextStyle(fontSize: 25.0);
 
+  final int contador = 10;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +21,7 @@ class HomePage extends StatelessWidget {
             style: estiloTexto,
           ),
           Text(
-            '0',
+            '$contador',
             style: estiloTexto,
           ),
         ],
